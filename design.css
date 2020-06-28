@@ -1,0 +1,262 @@
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+div {
+  
+			border: 1px solid block;
+			margin-bottom: 15px;
+			margin-left: 10px;
+			border: 2px solid black;
+			float: left;
+
+
+}
+
+#box1 {
+  background-color: gray;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  
+}
+
+#box2 {
+   background-color: gray;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+#box3 {
+   background-color: gray;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+        #inbox1
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: purple;
+				position: relative;
+				left: 344px;
+				padding: 2px;
+				bottom: 17px;
+			}
+
+		 #inbox2
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: green;
+				position: relative;
+				left: 344px;
+				padding: 2px;
+				bottom: 17px;
+			}
+			
+		 #inbox3
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: orange;
+				position: relative;
+				left: 344px;
+				padding: 2px;
+				bottom: 17px;
+			}		
+
+
+/***** large device only ******/
+		@media(min-width: 992px)
+		{
+			
+			#box1
+			{
+
+				width: 400px;
+				height: 170px;
+			}
+			#box2
+			{
+				width: 400px;
+				height: 170px;
+			}
+			#box3
+			{
+				width: 400px;
+				height: 170px;
+			}
+
+			 #inbox1
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: purple;
+				position: relative;
+				left: 324px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+			 #inbox2
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: green;
+				position: relative;
+				left: 324px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+			 #inbox3
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: orange;
+				position: relative;
+				left: 324px;
+				padding: 2px;
+				bottom: 18px;
+			}
+		}
+
+		/****** Medium Device only ******/
+		@media(min-width: 768px) and (max-width: 991px)
+		{
+			#box1
+			{
+				width: 450px;
+				height: 200px;
+			}
+			#box2
+			{
+				width: 450px;
+				height: 200px;
+			}
+			#box3
+			{
+				width: 925px;
+				height: 200px;
+			}
+
+			 #inbox1
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: purple;
+				position: relative;
+				left: 374px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+			 #inbox2
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: green;
+				position: relative;
+				left: 374px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+			 #inbox3
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: orange;
+				position: relative;
+				left: 849px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+
+		}
+		@media(max-width: 767px)
+		{
+			#box1
+			{
+				width: 450px;
+				height: 200px;
+				float: bottom;
+			}
+			#box2
+			{
+				width: 450px;
+				height: 200px;
+				float: bottom;
+			}
+			#box3
+			{
+				width: 450px;
+				height: 200px;
+				float: bottom;
+			}
+
+			 #inbox1
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: purple;
+				position: relative;
+				left: 374px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+			 #inbox2
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: green;
+				position: relative;
+				left: 374px;
+				padding: 2px;
+				bottom: 18px;
+			}
+
+			 #inbox3
+			{
+				text-align: center;
+				border: 2px solid black;
+				width: 70px;
+				height: 20px;
+				background-color: orange;
+				position: relative;
+				left: 374px;
+				padding: 2px;
+				bottom: 18px;
+			}
+		}
+
